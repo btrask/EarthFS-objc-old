@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		256AC3DA0F4B6AC300CF3369 /* EFSController.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* EFSController.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		B51D516516B39EFF008E9F26 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B51D516416B39EFF008E9F26 /* libcrypto.dylib */; };
+		B53306EA16ADAE67009FEE43 /* EFSMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B53306E916ADAE67009FEE43 /* EFSMenu.xib */; };
+		B533076C16B0D7B7009FEE43 /* libdb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B533076B16B0D7B7009FEE43 /* libdb.a */; };
+		B53307CD16B1FEBE009FEE43 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B53307CA16B1FEBE009FEE43 /* JSONKit.m */; };
+		B53307CE16B1FEBE009FEE43 /* SLHTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = B53307CC16B1FEBE009FEE43 /* SLHTTPServer.m */; };
+		B53307F016B20023009FEE43 /* SLDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B53307EF16B20023009FEE43 /* SLDispatcher.m */; };
+		B53307F416B2009F009FEE43 /* EFSServerDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B53307F316B2009F009FEE43 /* EFSServerDispatcher.m */; };
+		B55A0E9B16B325CE00541F8C /* EFSExtensions.plist in Resources */ = {isa = PBXBuildFile; fileRef = B55A0E9A16B325CE00541F8C /* EFSExtensions.plist */; };
+		B55A0ED816B3486100541F8C /* EFSQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = B55A0ED716B3486100541F8C /* EFSQuery.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		256AC3D80F4B6AC300CF3369 /* EFSController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFSController.h; sourceTree = "<group>"; };
+		256AC3D90F4B6AC300CF3369 /* EFSController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFSController.m; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* EarthFS-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "EarthFS-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* EarthFS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarthFS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B51D516416B39EFF008E9F26 /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = usr/lib/libcrypto.dylib; sourceTree = SDKROOT; };
+		B53306E916ADAE67009FEE43 /* EFSMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EFSMenu.xib; sourceTree = "<group>"; };
+		B533076B16B0D7B7009FEE43 /* libdb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdb.a; path = /usr/local/BerkeleyDB.5.3/lib/libdb.a; sourceTree = "<absolute>"; };
+		B53307C916B1FEBE009FEE43 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		B53307CA16B1FEBE009FEE43 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		B53307CB16B1FEBE009FEE43 /* SLHTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLHTTPServer.h; sourceTree = "<group>"; };
+		B53307CC16B1FEBE009FEE43 /* SLHTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLHTTPServer.m; sourceTree = "<group>"; };
+		B53307E916B1FEF8009FEE43 /* BTErrno.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTErrno.h; sourceTree = "<group>"; };
+		B53307EE16B20023009FEE43 /* SLDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLDispatcher.h; sourceTree = "<group>"; };
+		B53307EF16B20023009FEE43 /* SLDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLDispatcher.m; sourceTree = "<group>"; };
+		B53307F216B2009F009FEE43 /* EFSServerDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFSServerDispatcher.h; sourceTree = "<group>"; };
+		B53307F316B2009F009FEE43 /* EFSServerDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFSServerDispatcher.m; sourceTree = "<group>"; };
+		B55A0E9A16B325CE00541F8C /* EFSExtensions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = EFSExtensions.plist; sourceTree = "<group>"; };
+		B55A0ED616B3486100541F8C /* EFSQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EFSQuery.h; sourceTree = "<group>"; };
+		B55A0ED716B3486100541F8C /* EFSQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EFSQuery.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				B533076C16B0D7B7009FEE43 /* libdb.a in Frameworks */,
+				B51D516516B39EFF008E9F26 /* libcrypto.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3D80F4B6AC300CF3369 /* EFSController.h */,
+				256AC3D90F4B6AC300CF3369 /* EFSController.m */,
+				B53307F216B2009F009FEE43 /* EFSServerDispatcher.h */,
+				B53307F316B2009F009FEE43 /* EFSServerDispatcher.m */,
+				B55A0ED616B3486100541F8C /* EFSQuery.h */,
+				B55A0ED716B3486100541F8C /* EFSQuery.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				B51D516416B39EFF008E9F26 /* libcrypto.dylib */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				B533076B16B0D7B7009FEE43 /* libdb.a */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* EarthFS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* EarthFS */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				B53307E816B1FEF8009FEE43 /* Debugging */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = EarthFS;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				B53307C916B1FEBE009FEE43 /* JSONKit.h */,
+				B53307CA16B1FEBE009FEE43 /* JSONKit.m */,
+				B53307CB16B1FEBE009FEE43 /* SLHTTPServer.h */,
+				B53307CC16B1FEBE009FEE43 /* SLHTTPServer.m */,
+				B53307EE16B20023009FEE43 /* SLDispatcher.h */,
+				B53307EF16B20023009FEE43 /* SLDispatcher.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* EarthFS-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				B55A0E9A16B325CE00541F8C /* EFSExtensions.plist */,
+				B53306E916ADAE67009FEE43 /* EFSMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B53307E816B1FEF8009FEE43 /* Debugging */ = {
+			isa = PBXGroup;
+			children = (
+				B53307E916B1FEF8009FEE43 /* BTErrno.h */,
+			);
+			name = Debugging;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* EarthFS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "EarthFS" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EarthFS;
+			productInstallPath = "$(HOME)/Applications";
+			productName = EarthFS;
+			productReference = 8D1107320486CEB800E47090 /* EarthFS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "EarthFS" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* EarthFS */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* EarthFS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				B53306EA16ADAE67009FEE43 /* EFSMenu.xib in Resources */,
+				B55A0E9B16B325CE00541F8C /* EFSExtensions.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				256AC3DA0F4B6AC300CF3369 /* EFSController.m in Sources */,
+				B53307CD16B1FEBE009FEE43 /* JSONKit.m in Sources */,
+				B53307CE16B1FEBE009FEE43 /* SLHTTPServer.m in Sources */,
+				B53307F016B20023009FEE43 /* SLDispatcher.m in Sources */,
+				B53307F416B2009F009FEE43 /* EFSServerDispatcher.m in Sources */,
+				B55A0ED816B3486100541F8C /* EFSQuery.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = prefix.pch;
+				INFOPLIST_FILE = "EarthFS-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/BerkeleyDB.5.3/lib,
+				);
+				PRODUCT_NAME = EarthFS;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = prefix.pch;
+				INFOPLIST_FILE = "EarthFS-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/BerkeleyDB.5.3/lib,
+				);
+				PRODUCT_NAME = EarthFS;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/BerkeleyDB.5.3/include/;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/BerkeleyDB.5.3/include/;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "EarthFS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "EarthFS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
